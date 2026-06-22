@@ -28,12 +28,12 @@ public class PlayerLook : MonoBehaviour
 
         
         // // Rotate only while dragging mouse
-        // if (!Input.GetMouseButton(0) &&
-        //     !Input.GetMouseButton(1) &&
-        //     !Input.GetMouseButton(2))
-        // {
-        //     return;
-        // }
+        if (!Input.GetMouseButton(0) &&
+            !Input.GetMouseButton(1) &&
+            !Input.GetMouseButton(2))
+        {
+            return;
+        }
 
         float mouseX = Input.GetAxis("Mouse X");
         float mouseY = Input.GetAxis("Mouse Y");

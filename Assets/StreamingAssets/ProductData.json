@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "Sofa_01",
+      "name": "Wooden Sofa",
+      "type": "Furniture",
+      "price": 299
+    },
+    {
+      "id": "Pot_01",
+      "name": "Flower Pot",
+      "type": "Decor",
+      "price": 49
+    },
+    {
+      "id": "Chair_01",
+      "name": "Wooden Chair",
+      "type": "Furniture",
+      "price": 99
+    }
+  ]
+}
